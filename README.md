@@ -19,3 +19,14 @@ Installation & Configuration
 - flipx and flipz is used to change what order the signs are updated in.
 
 - Colors may be used on signs. "&&" (two ampersands) will be replaced by the color symbol, so &&4 would result in red text. See more color ids here: http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes
+
+- If an HTTP Request fails, the signs will simply not be updated, and an error logged to your server console.
+
+Tips
+====
+
+- Try to keep the cube regions as small as possible. Every single block within them has to be scanned for signs when updating.
+
+- Is your text out of order? Try adjusting flipx or flipz.
+
+- "Blank" state not being applied to signs? Add lines that only contain a space to the end of your file.
