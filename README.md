@@ -12,7 +12,7 @@ Installation & Configuration
 
 - For each set of signs, add a child node of signsets in the config file
 
-- x1 must be smaller than x2, y1 than y2, z1 than z2.
+- x1 must be smaller than x2, y1 than y2, z1 than z2. These coordinates create an inclusive cube region. Non-sign blocks will simply be ignored, so having your signs in irregular shapes is OK.
 
 - freq is how often the signs will be updated, in ticks. So 20 = one second.
 
