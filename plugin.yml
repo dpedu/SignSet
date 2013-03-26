@@ -1,0 +1,4 @@
+name: SignSet
+main: me.dpedu.signset.SignSet
+version: 0.1
+commands:
