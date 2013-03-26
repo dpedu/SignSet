@@ -17,3 +17,5 @@ Installation & Configuration
 - freq is how often the signs will be updated, in ticks. So 20 = one second.
 
 - flipx and flipz is used to change what order the signs are updated in.
+
+- Colors may be used on signs. "&&" (two ampersands) will be replaced by the color symbol, so &&4 would result in red text. See more color ids here: http://www.minecraftwiki.net/wiki/Formatting_codes#Color_codes
